@@ -1,0 +1,69 @@
+/* Centralized Button Styling */
+button {
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: inline-block;
+  width: auto;
+  max-width: 200px;
+  margin-top: 5px;
+}
+
+.submit-button {
+  background-color: #007bff;
+  color: white;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+  transform: translateY(-2px);
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: black;
+}
+
+.edit-button:hover {
+  background-color: #e0a800;
+  transform: translateY(-2px);
+}
+
+.download-button {
+  background-color: #28a745;
+  color: white;
+  margin-left: 10px;
+}
+
+.download-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+.remove-section-button {
+  background-color: #dc3545;
+  color: white;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+}
+
+.remove-section-button:hover {
+  background-color: #c82333;
+  transform: translateY(-2px);
+}
+
+.remove-section-button:active {
+  opacity: 0.6;
+}
+
+.add-section-button {
+  background-color: #28a745;
+  color: white;
+}
+
+.add-section-button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}

@@ -1,0 +1,46 @@
+.DisplayCV {
+  padding: 20px;
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.DisplayCV h1 {
+  margin-bottom: 20px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.DisplayCV h3 {
+  margin-bottom: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom: 2px solid #333;
+  padding-bottom: 5px;
+}
+
+.GeneralInfoDisplay,
+.EducationExperienceDisplay,
+.PracticalExperienceDisplay {
+  margin-bottom: 20px;
+}
+
+.EducationExperienceDisplay > div,
+.PracticalExperienceDisplay > div {
+  margin-bottom: 15px;
+}
+
+.EducationExperienceDisplay > div:last-child,
+.PracticalExperienceDisplay > div:last-child {
+  margin-bottom: 0;
+}
+
+.DisplayCV p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.DisplayCV strong {
+  font-weight: bold;
+}
