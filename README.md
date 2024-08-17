@@ -2,6 +2,10 @@
 
 Resume generator with PDF download function.
 
-Demo: https://cv-application-84c.pages.dev/
+Live Demo: https://cv-application-84c.pages.dev/
 
-Created using React.
+## Built using:
+
+- React
+
+- html2pdf
