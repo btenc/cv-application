@@ -6,6 +6,6 @@ Live Demo: https://cv-application-84c.pages.dev/
 
 ## Built using:
 
-- React
+- React & Vite
 
 - html2pdf
